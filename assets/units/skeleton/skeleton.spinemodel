@@ -1,0 +1,4 @@
+spine_scene: "/assets/units/skeleton/skeleton.spinescene"
+default_animation: "idle"
+skin: "skeleton1"
+material: "/defold-spine/assets/spine.material"

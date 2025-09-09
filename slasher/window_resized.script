@@ -1,0 +1,16 @@
+local broadcast = require 'helper.broadcast'
+
+local function on_window(self, event, data)
+    if event == window.WINDOW_EVENT_RESIZED then
+        if data.width == 0 or data.height == 0 then
+            return
+        end
+        broadcast.send("WINDOW_RESIZED", data)
+    end
+
+end
+function init(self)
+    if window then
+        window.set_listener(on_window)
+    end
+end

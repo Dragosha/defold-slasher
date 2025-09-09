@@ -1,0 +1,28 @@
+path_settings {
+  path: "/assets/rgba/*"
+  profile: "Default"
+}
+profiles {
+  name: "Default"
+  platforms {
+    os: OS_ID_GENERIC
+    formats {
+      format: TEXTURE_FORMAT_RGBA
+      compressor: "BasisU"
+      compressor_preset: "BASISU_HIGH"
+    }
+    mipmaps: false
+  }
+}
+profiles {
+  name: "uncompressed"
+  platforms {
+    os: OS_ID_GENERIC
+    formats {
+      format: TEXTURE_FORMAT_RGBA
+      compressor: "Uncompressed"
+      compressor_preset: "UNCOMPRESSED"
+    }
+    mipmaps: false
+  }
+}

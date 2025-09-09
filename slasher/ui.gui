@@ -1,0 +1,109 @@
+script: "/slasher/ui.gui_script"
+fonts {
+  name: "cardfont"
+  font: "/assets/fnt/cardfont.font"
+}
+nodes {
+  size {
+    x: 1600.0
+    y: 900.0
+  }
+  type: TYPE_BOX
+  id: "zone"
+  xanchor: XANCHOR_LEFT
+  yanchor: YANCHOR_BOTTOM
+  pivot: PIVOT_SW
+  adjust_mode: ADJUST_MODE_STRETCH
+  inherit_alpha: true
+  alpha: 0.0
+  visible: false
+}
+nodes {
+  position {
+    x: 800.0
+    y: 107.0
+  }
+  size {
+    x: 100.0
+    y: 100.0
+  }
+  type: TYPE_BOX
+  id: "pad"
+  inherit_alpha: true
+  visible: false
+}
+nodes {
+  size {
+    x: 200.0
+    y: 200.0
+  }
+  type: TYPE_PIE
+  id: "pie"
+  parent: "pad"
+  inherit_alpha: true
+  perimeterVertices: 24
+  alpha: 0.23
+}
+nodes {
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_BOX
+  id: "stick"
+  parent: "pad"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+  visible: false
+}
+nodes {
+  size {
+    x: 50.0
+    y: 50.0
+  }
+  type: TYPE_PIE
+  id: "pie1"
+  parent: "stick"
+  inherit_alpha: true
+  perimeterVertices: 24
+  alpha: 0.67
+}
+nodes {
+  position {
+    x: 107.476
+    y: 110.836
+  }
+  type: TYPE_BOX
+  id: "corner2"
+  xanchor: XANCHOR_LEFT
+  yanchor: YANCHOR_BOTTOM
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+  visible: false
+}
+nodes {
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_BOX
+  id: "jump"
+  parent: "corner2"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+  visible: false
+}
+nodes {
+  position {
+    y: 846.0
+  }
+  type: TYPE_BOX
+  id: "corner"
+  xanchor: XANCHOR_LEFT
+  yanchor: YANCHOR_TOP
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+  visible: false
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT

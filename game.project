@@ -1,0 +1,56 @@
+[bootstrap]
+main_collection = /slasher/scene.collectionc
+render = /light_and_shadows/render/default.renderc
+
+[script]
+shared_state = 1
+
+[display]
+width = 1600
+height = 900
+high_dpi = 1
+
+[project]
+title = Slasher - Light and Shadows
+version = 0.83
+developer = Igor Suntsev
+dependencies#0 = https://github.com/britzl/defold-input/archive/master.zip
+dependencies#1 = https://github.com/britzl/monarch/archive/refs/tags/3.4.6.zip
+dependencies#2 = https://github.com/defold/extension-spine/archive/refs/tags/3.12.0.zip
+dependencies#3 = https://github.com/Dragosha/defold-light-and-shadows/archive/refs/heads/main.zip
+
+[physics]
+type = 3D
+gravity_y = -90.0
+max_collisions = 128
+max_contacts = 256
+use_fixed_timestep = 1
+
+[html5]
+show_fullscreen_button = 0
+show_made_with_defold = 0
+scale_mode = stretch
+cssfile = /builtins/manifests/web/dark_theme.css
+
+[graphics]
+texture_profiles = /assets/custom.texture_profiles
+max_debug_vertices = 60000
+
+[input]
+game_binding = /builtins/input/all.input_bindingc
+
+[sprite]
+max_count = 8192
+
+[library]
+include_dirs = light_and_shadows
+
+[model]
+max_count = 8192
+
+[tilemap]
+max_tile_count = 16384
+
+[collection]
+max_instances = 16384
+

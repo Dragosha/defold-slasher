@@ -1,0 +1,163 @@
+images {
+  image: "/assets/slasher/barrel.png"
+  pivot_y: 1.0
+}
+images {
+  image: "/assets/slasher/bg1.png"
+  pivot_y: 1.0
+}
+images {
+  image: "/assets/slasher/bg2.png"
+  pivot_y: 1.0
+}
+images {
+  image: "/assets/slasher/bgstone1b.png"
+  pivot_y: 0.0
+}
+images {
+  image: "/assets/slasher/bgstone2.png"
+}
+images {
+  image: "/assets/slasher/bgstone3.png"
+}
+images {
+  image: "/assets/slasher/bgwooden1.png"
+}
+images {
+  image: "/assets/slasher/bgwooden1b.png"
+  pivot_y: 0.0
+}
+images {
+  image: "/assets/slasher/chandelier-chain.png"
+  pivot_y: 1.0
+}
+images {
+  image: "/assets/slasher/chandelier.png"
+  pivot_y: 0.1995
+}
+images {
+  image: "/assets/slasher/foregroundShadow.png"
+}
+images {
+  image: "/assets/slasher/house1.png"
+  pivot_y: 1.0
+}
+images {
+  image: "/assets/slasher/lightaura.png"
+}
+images {
+  image: "/assets/slasher/lightaura2.png"
+}
+images {
+  image: "/assets/slasher/lightaura_red.png"
+}
+images {
+  image: "/assets/slasher/lightaura_white.png"
+}
+images {
+  image: "/assets/slasher/stoneblock.png"
+}
+images {
+  image: "/assets/slasher/stoneblock2.png"
+}
+images {
+  image: "/assets/slasher/stoneblock3.png"
+  pivot_y: 1.0
+}
+images {
+  image: "/assets/slasher/stoneblock4.png"
+}
+images {
+  image: "/assets/slasher/stoneblock5.png"
+}
+images {
+  image: "/assets/slasher/stoneblock6.png"
+  pivot_y: 1.0
+}
+images {
+  image: "/assets/slasher/stoneblock6_A.png"
+}
+images {
+  image: "/assets/slasher/stoneblock6_B.png"
+}
+images {
+  image: "/assets/slasher/stoneblockA.png"
+  pivot_y: 0.969436
+}
+images {
+  image: "/assets/slasher/stoneblockB.png"
+  pivot_y: 1.0
+}
+images {
+  image: "/assets/slasher/stuff1.png"
+  pivot_y: 0.867645
+}
+images {
+  image: "/assets/slasher/stuff2.png"
+  pivot_y: 0.86967
+}
+images {
+  image: "/assets/slasher/stuff3.png"
+  pivot_y: 1.0
+}
+images {
+  image: "/assets/slasher/stuff3_A.png"
+  pivot_y: 1.0
+}
+images {
+  image: "/assets/slasher/stuff3_B.png"
+  pivot_y: 1.0
+}
+images {
+  image: "/assets/slasher/stuff4.png"
+}
+images {
+  image: "/assets/slasher/target.png"
+}
+images {
+  image: "/assets/fx/fx1.png"
+}
+images {
+  image: "/assets/fx/dust1.png"
+}
+images {
+  image: "/assets/fx/fireball2.png"
+}
+images {
+  image: "/assets/slasher/windowlight.png"
+}
+animations {
+  id: "firea"
+  images {
+    image: "/assets/fire/fire1.png"
+  }
+  images {
+    image: "/assets/fire/fire2.png"
+  }
+  images {
+    image: "/assets/fire/fire3.png"
+  }
+  images {
+    image: "/assets/fire/fire4.png"
+  }
+  images {
+    image: "/assets/fire/fire5.png"
+  }
+  images {
+    image: "/assets/fire/fire6.png"
+  }
+  images {
+    image: "/assets/fire/fire7.png"
+  }
+  images {
+    image: "/assets/fire/fire8.png"
+  }
+  images {
+    image: "/assets/fire/fire9.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+}
+margin: 2
+extrude_borders: 2
+inner_padding: 1
